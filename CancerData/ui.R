@@ -17,7 +17,8 @@ shinyUI(fluidPage(
         selectInput('facet_col', 'Facet Column', c(None='.', names(dataset)))
     ),
     
-    helpText("Note: The variables used in this application is based on the Esoph data package and a full decription can be found in the R Datasets Package."),
+    helpText("Note: The variables used in this application is based on the Esoph data package and a full decription can be found in the R Datasets Package.
+             The application is only to be used to explore the data."),
     
     mainPanel(
         plotOutput('plot')
