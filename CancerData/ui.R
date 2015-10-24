@@ -21,7 +21,7 @@ shinyUI(fluidPage(
         mainPanel(
             tabsetPanel(type = "tabs", 
                   tabPanel("Plot", plotOutput("plot")), 
-                  tabPanel("Documentation",includeMarkdown("DataProductsSlide.md")
+                  tabPanel("Documentation",includeMarkdown("DataProductsSlide.Rpres")
         )
         ))
 ))

@@ -22,7 +22,7 @@ Description
 Data from a case-control study of (o)esophageal cancer in Ille-et-Vilaine, France. 
 
 
-Format
+Variable descriptions
 ========================================================
 
 A data frame with records for 88 age/alcohol/tobacco combinations.
@@ -54,6 +54,29 @@ A data frame with records for 88 age/alcohol/tobacco combinations.
 
 [,5] 	"ncontrols" 	Number of controls 	
 
+Using the application
+========================================================
+Select any available variable for the X axis. These are the descriptive variables in the data-set.
+
+X-Axis:
+
+agegp - Age group 
+
+alcgp - Alcohol consumption 
+
+tobgp - Tobacco consumption 
+
+The quantitative variables will be available for the y axis.
+
+Y-Axis:
+
+ncases = No of cases
+
+ncontrols = No of Controls
+
+The data can be explored in the graph by choosing different variables to display in the graph. It is interactive to allow the user to explore and analyse the data as per individual requirements.
+
+The same variables can also be used to display the data in colour category and/or factors per row and columns.
 
 Explore Data
 ========================================================
@@ -69,3 +92,4 @@ Plot
 No of cases comparing number of controls per age group
 
 ![plot of chunk unnamed-chunk-2](DataProductsSlide-figure/unnamed-chunk-2-1.png) 
+
