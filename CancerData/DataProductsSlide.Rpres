@@ -78,12 +78,20 @@ The data can be explored in the graph by choosing different variables to display
 
 The same variables can also be used to display the data in colour category and/or factors per row and columns.
 
+Add new % column to dataset
+========================================================
+The variable 'Add % to dataset?' will do a calculation between no of cases as a % of no of controls. You can select if this column must be added or not.
+
+This piece of the app does not work due to Shiny being the shittest tool I have ever encountered.
+
+
 Explore Data
 ========================================================
 
 ```{r, message=FALSE, warning=FALSE}
 library(MASS)
 y <- as.data.frame(esoph)
+y$percent <- round(y$ncases / y$ncontrols * 100)
 y
 ```
 

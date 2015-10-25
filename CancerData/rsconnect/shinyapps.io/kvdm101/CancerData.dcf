@@ -1,8 +1,6 @@
 name: CancerData
 account: kvdm101
 server: shinyapps.io
-bundleId: 296241
+bundleId: 297205
 url: https://kvdm101.shinyapps.io/CancerData
-when: 1445698977.86289
-asMultiple: FALSE
-asStatic: FALSE
+when: 1445779435.50774
