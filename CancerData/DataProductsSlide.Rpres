@@ -84,18 +84,8 @@ Explore Data
 ```{r, message=FALSE, warning=FALSE}
 library(MASS)
 y <- as.data.frame(esoph)
+y
 ```
 
-Plot
-========================================================
-No of cases comparing number of controls per age group
 
-```{r, echo=FALSE}
-library(ggplot2)
-ggplot(y, aes(x = agegp)) + 
-    geom_line(aes(y = ncontrols), colour="blue", size = 10) + 
-    geom_line(aes(y = ncases), colour = "red", size = 10) + 
-    ylab(label="Number of Cases vs Controls") + 
-    xlab("Age groups")
-```
 
