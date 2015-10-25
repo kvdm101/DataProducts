@@ -30,7 +30,7 @@ shinyServer(function(input, output) {
 
     check <- reactive({
      
-        if (input$perc == 'No')
+        if (input$perc == 'Yes')
            y$percent <- round(y$ncases / y$ncontrols * 100)
         else
            y
